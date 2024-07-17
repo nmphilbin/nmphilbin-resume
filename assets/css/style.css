@@ -25,6 +25,23 @@ header {
     background-color: #525252;
 }
 
+/*  Special paddings/margins/text */
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+/* ./ Special paddings/margins/text */
+
 /* Heading */
 .heading {
     margin-left: 50px;
@@ -66,6 +83,10 @@ header {
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 #nav li {
     font-size: 14px;
     padding: 0;
@@ -103,3 +124,20 @@ padding: 0;
 }
 
 /* ./ Heading */
+
+/* Hover CSS */
+.hvr-sweep-to-top:before {
+    background-color: darkblue;
+}
+
+/* ./ Hover CSS */
+
+/*  Footer */
+footer {
+    background-color: #474141;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+/* ./ Footer */
