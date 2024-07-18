@@ -12,6 +12,10 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-work-history {
+    background-color: #9b59b6;
+}
+
 
 
 .ui-menu-color-home {
@@ -61,6 +65,7 @@ h1,h2,h3,h4 {
     float: none;
 }
 
+.history-heading ,
 .section-heading {  
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -280,5 +285,13 @@ footer {
     margin: 40px 20px;
 }
 
-
 /* ./ Skills*/
+
+/* Work History */
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+
+/* ./ Work History */
